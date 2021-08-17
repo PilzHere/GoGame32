@@ -130,7 +130,11 @@ func (p *Player) Render(spriteBatch *pixel.Batch, dt *float64) {
 	p.sprite.Draw(spriteBatch, pixel.IM.Moved(p.Position))
 	p.spriteRect1.Draw(spriteBatch, pixel.IM.Moved(p.rectPos))
 
+<<<<<<< HEAD
 	p.spriteRect2.Draw(spriteBatch, pixel.IM.Moved(pixel.V(32 - 8, 32)))
+=======
+	p.spriteRect2.Draw(spriteBatch, pixel.IM.Moved(pixel.V(32-8, 32)))
+>>>>>>> 0d061366faa80267ab79a31e2e4f355d8886141f
 }
 
 //Move man idk

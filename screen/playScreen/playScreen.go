@@ -23,11 +23,19 @@ func NewPlayScreen(spriteBatch *pixel.Batch, assMan *utils.AssetsManager, window
 	fmt.Printf("THIS IS THE CONSTRUCTOR OF PLAYSCREEN %p\n", &PlayScreen{})
 
 	ps := &PlayScreen{
+<<<<<<< HEAD
 		Screen:screen.Screen{
 			Entities: []entity.Entityer{},
 			SpriteBatch: spriteBatch,
 			Window:   window,
 			AssMan:   assMan,
+=======
+		Screen: screen.Screen{
+			Entities:    []entity.Entityer{},
+			SpriteBatch: spriteBatch,
+			Window:      window,
+			AssMan:      assMan,
+>>>>>>> 0d061366faa80267ab79a31e2e4f355d8886141f
 		},
 	}
 

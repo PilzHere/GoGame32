@@ -16,7 +16,11 @@ var (
 
 type MenuScreen struct {
 	screen.Screen
+<<<<<<< HEAD
 	sprite   *pixel.Sprite
+=======
+	sprite *pixel.Sprite
+>>>>>>> 0d061366faa80267ab79a31e2e4f355d8886141f
 }
 
 func NewMenuScreen(spriteBatch *pixel.Batch, assMan *utils.AssetsManager, window *pixelgl.Window) *MenuScreen {
@@ -24,10 +28,17 @@ func NewMenuScreen(spriteBatch *pixel.Batch, assMan *utils.AssetsManager, window
 
 	ms := &MenuScreen{
 		Screen: screen.Screen{
+<<<<<<< HEAD
 			Entities: []entity.Entityer{},
 			SpriteBatch: spriteBatch,
 			Window:   window,
 			AssMan:   assMan,
+=======
+			Entities:    []entity.Entityer{},
+			SpriteBatch: spriteBatch,
+			Window:      window,
+			AssMan:      assMan,
+>>>>>>> 0d061366faa80267ab79a31e2e4f355d8886141f
 		},
 		sprite: nil,
 	}
