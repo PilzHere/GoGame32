@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-down" width="27" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="492">
+ <properties>
+  <property name="theme" type="int" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="tilesheet01" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../tilesheet01.png" width="128" height="128"/>
+  <tile id="2">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="19">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <objectgroup id="2" name="background" offsetx="16" offsety="0">
+  <object id="2" name="bgBlock02" gid="9" x="176" y="112" width="16" height="16"/>
+  <object id="29" name="bgBlock02" gid="9" x="192" y="112" width="16" height="16"/>
+  <object id="30" name="bgBlock02" gid="9" x="176" y="128" width="16" height="16"/>
+  <object id="31" name="bgBlock02" gid="9" x="192" y="128" width="16" height="16"/>
+  <object id="34" name="bgBlock01" gid="1" x="0" y="32" width="16" height="16"/>
+  <object id="35" name="bgBlock01" gid="1" x="16" y="32" width="16" height="16"/>
+  <object id="36" name="bgBlock01" gid="1" x="32" y="32" width="16" height="16"/>
+  <object id="37" name="bgBlock01" gid="1" x="48" y="32" width="16" height="16"/>
+  <object id="38" name="bgBlock01" gid="1" x="64" y="32" width="16" height="16"/>
+  <object id="39" name="bgBlock01" gid="1" x="80" y="32" width="16" height="16"/>
+  <object id="40" name="bgBlock01" gid="1" x="96" y="32" width="16" height="16"/>
+  <object id="41" name="bgBlock01" gid="1" x="112" y="32" width="16" height="16"/>
+  <object id="42" name="bgBlock01" gid="1" x="128" y="32" width="16" height="16"/>
+  <object id="43" name="bgBlock01" gid="1" x="144" y="32" width="16" height="16"/>
+  <object id="44" name="bgBlock01" gid="1" x="160" y="32" width="16" height="16"/>
+  <object id="45" name="bgBlock01" gid="1" x="176" y="32" width="16" height="16"/>
+  <object id="46" name="bgBlock01" gid="1" x="192" y="32" width="16" height="16"/>
+  <object id="47" name="bgBlock01" gid="1" x="208" y="32" width="16" height="16"/>
+  <object id="48" name="bgBlock01" gid="1" x="224" y="32" width="16" height="16"/>
+  <object id="49" name="bgBlock01" gid="1" x="240" y="32" width="16" height="16"/>
+  <object id="50" name="bgBlock01" gid="1" x="256" y="32" width="16" height="16"/>
+  <object id="51" name="bgBlock01" gid="1" x="272" y="32" width="16" height="16"/>
+  <object id="52" name="bgBlock01" gid="1" x="288" y="32" width="16" height="16"/>
+  <object id="53" name="bgBlock01" gid="1" x="304" y="32" width="16" height="16"/>
+  <object id="54" name="bgBlock01" gid="1" x="320" y="32" width="16" height="16"/>
+  <object id="55" name="bgBlock01" gid="1" x="336" y="32" width="16" height="16"/>
+  <object id="56" name="bgBlock01" gid="1" x="352" y="32" width="16" height="16"/>
+  <object id="57" name="bgBlock01" gid="1" x="368" y="32" width="16" height="16"/>
+  <object id="58" name="bgBlock01" gid="1" x="384" y="32" width="16" height="16"/>
+  <object id="61" name="bgBlock01" gid="1" x="0" y="48" width="16" height="16"/>
+  <object id="62" name="bgBlock01" gid="1" x="16" y="48" width="16" height="16"/>
+  <object id="63" name="bgBlock01" gid="1" x="32" y="48" width="16" height="16"/>
+  <object id="64" name="bgBlock01" gid="1" x="48" y="48" width="16" height="16"/>
+  <object id="65" name="bgBlock01" gid="1" x="64" y="48" width="16" height="16"/>
+  <object id="66" name="bgBlock01" gid="1" x="80" y="48" width="16" height="16"/>
+  <object id="67" name="bgBlock01" gid="1" x="96" y="48" width="16" height="16"/>
+  <object id="68" name="bgBlock01" gid="1" x="112" y="48" width="16" height="16"/>
+  <object id="69" name="bgBlock01" gid="1" x="128" y="48" width="16" height="16"/>
+  <object id="70" name="bgBlock01" gid="1" x="144" y="48" width="16" height="16"/>
+  <object id="71" name="bgBlock01" gid="1" x="160" y="48" width="16" height="16"/>
+  <object id="72" name="bgBlock01" gid="1" x="176" y="48" width="16" height="16"/>
+  <object id="73" name="bgBlock01" gid="1" x="192" y="48" width="16" height="16"/>
+  <object id="74" name="bgBlock01" gid="1" x="208" y="48" width="16" height="16"/>
+  <object id="75" name="bgBlock01" gid="1" x="224" y="48" width="16" height="16"/>
+  <object id="76" name="bgBlock01" gid="1" x="240" y="48" width="16" height="16"/>
+  <object id="77" name="bgBlock01" gid="1" x="256" y="48" width="16" height="16"/>
+  <object id="78" name="bgBlock01" gid="1" x="272" y="48" width="16" height="16"/>
+  <object id="79" name="bgBlock01" gid="1" x="288" y="48" width="16" height="16"/>
+  <object id="80" name="bgBlock01" gid="1" x="304" y="48" width="16" height="16"/>
+  <object id="81" name="bgBlock01" gid="1" x="320" y="48" width="16" height="16"/>
+  <object id="82" name="bgBlock01" gid="1" x="336" y="48" width="16" height="16"/>
+  <object id="83" name="bgBlock01" gid="1" x="352" y="48" width="16" height="16"/>
+  <object id="84" name="bgBlock01" gid="1" x="368" y="48" width="16" height="16"/>
+  <object id="85" name="bgBlock01" gid="1" x="384" y="48" width="16" height="16"/>
+  <object id="88" name="bgBlock01" gid="1" x="0" y="64" width="16" height="16"/>
+  <object id="89" name="bgBlock01" gid="1" x="16" y="64" width="16" height="16"/>
+  <object id="90" name="bgBlock01" gid="1" x="32" y="64" width="16" height="16"/>
+  <object id="91" name="bgBlock01" gid="1" x="48" y="64" width="16" height="16"/>
+  <object id="92" name="bgBlock01" gid="1" x="64" y="64" width="16" height="16"/>
+  <object id="93" name="bgBlock01" gid="1" x="80" y="64" width="16" height="16"/>
+  <object id="94" name="bgBlock01" gid="1" x="96" y="64" width="16" height="16"/>
+  <object id="95" name="bgBlock01" gid="1" x="112" y="64" width="16" height="16"/>
+  <object id="96" name="bgBlock01" gid="1" x="128" y="64" width="16" height="16"/>
+  <object id="97" name="bgBlock01" gid="1" x="144" y="64" width="16" height="16"/>
+  <object id="98" name="bgBlock01" gid="1" x="160" y="64" width="16" height="16"/>
+  <object id="99" name="bgBlock01" gid="1" x="176" y="64" width="16" height="16"/>
+  <object id="100" name="bgBlock01" gid="1" x="192" y="64" width="16" height="16"/>
+  <object id="101" name="bgBlock01" gid="1" x="208" y="64" width="16" height="16"/>
+  <object id="102" name="bgBlock01" gid="1" x="224" y="64" width="16" height="16"/>
+  <object id="103" name="bgBlock01" gid="1" x="240" y="64" width="16" height="16"/>
+  <object id="104" name="bgBlock01" gid="1" x="256" y="64" width="16" height="16"/>
+  <object id="105" name="bgBlock01" gid="1" x="272" y="64" width="16" height="16"/>
+  <object id="106" name="bgBlock01" gid="1" x="288" y="64" width="16" height="16"/>
+  <object id="107" name="bgBlock01" gid="1" x="304" y="64" width="16" height="16"/>
+  <object id="108" name="bgBlock01" gid="1" x="320" y="64" width="16" height="16"/>
+  <object id="109" name="bgBlock01" gid="1" x="336" y="64" width="16" height="16"/>
+  <object id="110" name="bgBlock01" gid="1" x="352" y="64" width="16" height="16"/>
+  <object id="111" name="bgBlock01" gid="1" x="368" y="64" width="16" height="16"/>
+  <object id="112" name="bgBlock01" gid="1" x="384" y="64" width="16" height="16"/>
+  <object id="115" name="bgBlock01" gid="1" x="0" y="80" width="16" height="16"/>
+  <object id="116" name="bgBlock01" gid="1" x="16" y="80" width="16" height="16"/>
+  <object id="117" name="bgBlock01" gid="1" x="32" y="80" width="16" height="16"/>
+  <object id="118" name="bgBlock01" gid="1" x="48" y="80" width="16" height="16"/>
+  <object id="119" name="bgBlock01" gid="1" x="64" y="80" width="16" height="16"/>
+  <object id="120" name="bgBlock01" gid="1" x="80" y="80" width="16" height="16"/>
+  <object id="121" name="bgBlock01" gid="1" x="96" y="80" width="16" height="16"/>
+  <object id="122" name="bgBlock01" gid="1" x="112" y="80" width="16" height="16"/>
+  <object id="123" name="bgBlock01" gid="1" x="128" y="80" width="16" height="16"/>
+  <object id="124" name="bgBlock01" gid="1" x="144" y="80" width="16" height="16"/>
+  <object id="125" name="bgBlock01" gid="1" x="160" y="80" width="16" height="16"/>
+  <object id="126" name="bgBlock01" gid="1" x="176" y="80" width="16" height="16"/>
+  <object id="127" name="bgBlock01" gid="1" x="192" y="80" width="16" height="16"/>
+  <object id="128" name="bgBlock01" gid="1" x="208" y="80" width="16" height="16"/>
+  <object id="129" name="bgBlock01" gid="1" x="224" y="80" width="16" height="16"/>
+  <object id="130" name="bgBlock01" gid="1" x="240" y="80" width="16" height="16"/>
+  <object id="131" name="bgBlock01" gid="1" x="256" y="80" width="16" height="16"/>
+  <object id="132" name="bgBlock01" gid="1" x="272" y="80" width="16" height="16"/>
+  <object id="133" name="bgBlock01" gid="1" x="288" y="80" width="16" height="16"/>
+  <object id="134" name="bgBlock01" gid="1" x="304" y="80" width="16" height="16"/>
+  <object id="135" name="bgBlock01" gid="1" x="320" y="80" width="16" height="16"/>
+  <object id="136" name="bgBlock01" gid="1" x="336" y="80" width="16" height="16"/>
+  <object id="137" name="bgBlock01" gid="1" x="352" y="80" width="16" height="16"/>
+  <object id="138" name="bgBlock01" gid="1" x="368" y="80" width="16" height="16"/>
+  <object id="139" name="bgBlock01" gid="1" x="384" y="80" width="16" height="16"/>
+  <object id="142" name="bgBlock01" gid="1" x="0" y="96" width="16" height="16"/>
+  <object id="143" name="bgBlock01" gid="1" x="16" y="96" width="16" height="16"/>
+  <object id="144" name="bgBlock01" gid="1" x="32" y="96" width="16" height="16"/>
+  <object id="145" name="bgBlock01" gid="1" x="48" y="96" width="16" height="16"/>
+  <object id="146" name="bgBlock01" gid="1" x="64" y="96" width="16" height="16"/>
+  <object id="147" name="bgBlock01" gid="1" x="80" y="96" width="16" height="16"/>
+  <object id="148" name="bgBlock01" gid="1" x="96" y="96" width="16" height="16"/>
+  <object id="149" name="bgBlock01" gid="1" x="112" y="96" width="16" height="16"/>
+  <object id="150" name="bgBlock01" gid="1" x="128" y="96" width="16" height="16"/>
+  <object id="151" name="bgBlock01" gid="1" x="144" y="96" width="16" height="16"/>
+  <object id="152" name="bgBlock01" gid="1" x="160" y="96" width="16" height="16"/>
+  <object id="153" name="bgBlock01" gid="1" x="176" y="96" width="16" height="16"/>
+  <object id="154" name="bgBlock01" gid="1" x="192" y="96" width="16" height="16"/>
+  <object id="155" name="bgBlock01" gid="1" x="208" y="96" width="16" height="16"/>
+  <object id="156" name="bgBlock01" gid="1" x="224" y="96" width="16" height="16"/>
+  <object id="157" name="bgBlock01" gid="1" x="240" y="96" width="16" height="16"/>
+  <object id="158" name="bgBlock01" gid="1" x="256" y="96" width="16" height="16"/>
+  <object id="159" name="bgBlock01" gid="1" x="272" y="96" width="16" height="16"/>
+  <object id="160" name="bgBlock01" gid="1" x="288" y="96" width="16" height="16"/>
+  <object id="161" name="bgBlock01" gid="1" x="304" y="96" width="16" height="16"/>
+  <object id="162" name="bgBlock01" gid="1" x="320" y="96" width="16" height="16"/>
+  <object id="163" name="bgBlock01" gid="1" x="336" y="96" width="16" height="16"/>
+  <object id="164" name="bgBlock01" gid="1" x="352" y="96" width="16" height="16"/>
+  <object id="165" name="bgBlock01" gid="1" x="368" y="96" width="16" height="16"/>
+  <object id="166" name="bgBlock01" gid="1" x="384" y="96" width="16" height="16"/>
+  <object id="169" name="bgBlock01" gid="1" x="0" y="112" width="16" height="16"/>
+  <object id="170" name="bgBlock01" gid="1" x="16" y="112" width="16" height="16"/>
+  <object id="171" name="bgBlock01" gid="1" x="32" y="112" width="16" height="16"/>
+  <object id="172" name="bgBlock01" gid="1" x="48" y="112" width="16" height="16"/>
+  <object id="173" name="bgBlock01" gid="1" x="64" y="112" width="16" height="16"/>
+  <object id="174" name="bgBlock01" gid="1" x="80" y="112" width="16" height="16"/>
+  <object id="175" name="bgBlock01" gid="1" x="96" y="112" width="16" height="16"/>
+  <object id="176" name="bgBlock01" gid="1" x="112" y="112" width="16" height="16"/>
+  <object id="177" name="bgBlock01" gid="1" x="128" y="112" width="16" height="16"/>
+  <object id="178" name="bgBlock01" gid="1" x="144" y="112" width="16" height="16"/>
+  <object id="179" name="bgBlock01" gid="1" x="160" y="112" width="16" height="16"/>
+  <object id="182" name="bgBlock01" gid="1" x="208" y="112" width="16" height="16"/>
+  <object id="183" name="bgBlock01" gid="1" x="224" y="112" width="16" height="16"/>
+  <object id="184" name="bgBlock01" gid="1" x="240" y="112" width="16" height="16"/>
+  <object id="185" name="bgBlock01" gid="1" x="256" y="112" width="16" height="16"/>
+  <object id="186" name="bgBlock01" gid="1" x="272" y="112" width="16" height="16"/>
+  <object id="187" name="bgBlock01" gid="1" x="288" y="112" width="16" height="16"/>
+  <object id="188" name="bgBlock01" gid="1" x="304" y="112" width="16" height="16"/>
+  <object id="189" name="bgBlock01" gid="1" x="320" y="112" width="16" height="16"/>
+  <object id="190" name="bgBlock01" gid="1" x="336" y="112" width="16" height="16"/>
+  <object id="191" name="bgBlock01" gid="1" x="352" y="112" width="16" height="16"/>
+  <object id="192" name="bgBlock01" gid="1" x="368" y="112" width="16" height="16"/>
+  <object id="193" name="bgBlock01" gid="1" x="384" y="112" width="16" height="16"/>
+  <object id="196" name="bgBlock01" gid="1" x="0" y="128" width="16" height="16"/>
+  <object id="197" name="bgBlock01" gid="1" x="16" y="128" width="16" height="16"/>
+  <object id="198" name="bgBlock01" gid="1" x="32" y="128" width="16" height="16"/>
+  <object id="199" name="bgBlock01" gid="1" x="48" y="128" width="16" height="16"/>
+  <object id="200" name="bgBlock01" gid="1" x="64" y="128" width="16" height="16"/>
+  <object id="201" name="bgBlock01" gid="1" x="80" y="128" width="16" height="16"/>
+  <object id="202" name="bgBlock01" gid="1" x="96" y="128" width="16" height="16"/>
+  <object id="203" name="bgBlock01" gid="1" x="112" y="128" width="16" height="16"/>
+  <object id="204" name="bgBlock01" gid="1" x="128" y="128" width="16" height="16"/>
+  <object id="205" name="bgBlock01" gid="1" x="144" y="128" width="16" height="16"/>
+  <object id="206" name="bgBlock01" gid="1" x="160" y="128" width="16" height="16"/>
+  <object id="209" name="bgBlock01" gid="1" x="208" y="128" width="16" height="16"/>
+  <object id="210" name="bgBlock01" gid="1" x="224" y="128" width="16" height="16"/>
+  <object id="211" name="bgBlock01" gid="1" x="240" y="128" width="16" height="16"/>
+  <object id="212" name="bgBlock01" gid="1" x="256" y="128" width="16" height="16"/>
+  <object id="213" name="bgBlock01" gid="1" x="272" y="128" width="16" height="16"/>
+  <object id="214" name="bgBlock01" gid="1" x="288" y="128" width="16" height="16"/>
+  <object id="215" name="bgBlock01" gid="1" x="304" y="128" width="16" height="16"/>
+  <object id="216" name="bgBlock01" gid="1" x="320" y="128" width="16" height="16"/>
+  <object id="217" name="bgBlock01" gid="1" x="336" y="128" width="16" height="16"/>
+  <object id="218" name="bgBlock01" gid="1" x="352" y="128" width="16" height="16"/>
+  <object id="219" name="bgBlock01" gid="1" x="368" y="128" width="16" height="16"/>
+  <object id="220" name="bgBlock01" gid="1" x="384" y="128" width="16" height="16"/>
+  <object id="223" name="bgBlock01" gid="1" x="0" y="144" width="16" height="16"/>
+  <object id="224" name="bgBlock01" gid="1" x="16" y="144" width="16" height="16"/>
+  <object id="225" name="bgBlock01" gid="1" x="32" y="144" width="16" height="16"/>
+  <object id="226" name="bgBlock01" gid="1" x="48" y="144" width="16" height="16"/>
+  <object id="227" name="bgBlock01" gid="1" x="64" y="144" width="16" height="16"/>
+  <object id="228" name="bgBlock01" gid="1" x="80" y="144" width="16" height="16"/>
+  <object id="229" name="bgBlock01" gid="1" x="96" y="144" width="16" height="16"/>
+  <object id="230" name="bgBlock01" gid="1" x="112" y="144" width="16" height="16"/>
+  <object id="231" name="bgBlock01" gid="1" x="128" y="144" width="16" height="16"/>
+  <object id="232" name="bgBlock01" gid="1" x="144" y="144" width="16" height="16"/>
+  <object id="233" name="bgBlock01" gid="1" x="160" y="144" width="16" height="16"/>
+  <object id="234" name="bgBlock01" gid="1" x="176" y="144" width="16" height="16"/>
+  <object id="235" name="bgBlock01" gid="1" x="192" y="144" width="16" height="16"/>
+  <object id="236" name="bgBlock01" gid="1" x="208" y="144" width="16" height="16"/>
+  <object id="237" name="bgBlock01" gid="1" x="224" y="144" width="16" height="16"/>
+  <object id="238" name="bgBlock01" gid="1" x="240" y="144" width="16" height="16"/>
+  <object id="239" name="bgBlock01" gid="1" x="256" y="144" width="16" height="16"/>
+  <object id="240" name="bgBlock01" gid="1" x="272" y="144" width="16" height="16"/>
+  <object id="241" name="bgBlock01" gid="1" x="288" y="144" width="16" height="16"/>
+  <object id="242" name="bgBlock01" gid="1" x="304" y="144" width="16" height="16"/>
+  <object id="243" name="bgBlock01" gid="1" x="320" y="144" width="16" height="16"/>
+  <object id="244" name="bgBlock01" gid="1" x="336" y="144" width="16" height="16"/>
+  <object id="245" name="bgBlock01" gid="1" x="352" y="144" width="16" height="16"/>
+  <object id="246" name="bgBlock01" gid="1" x="368" y="144" width="16" height="16"/>
+  <object id="247" name="bgBlock01" gid="1" x="384" y="144" width="16" height="16"/>
+  <object id="250" name="bgBlock01" gid="1" x="0" y="160" width="16" height="16"/>
+  <object id="251" name="bgBlock01" gid="1" x="16" y="160" width="16" height="16"/>
+  <object id="252" name="bgBlock01" gid="1" x="32" y="160" width="16" height="16"/>
+  <object id="253" name="bgBlock01" gid="1" x="48" y="160" width="16" height="16"/>
+  <object id="254" name="bgBlock01" gid="1" x="64" y="160" width="16" height="16"/>
+  <object id="255" name="bgBlock01" gid="1" x="80" y="160" width="16" height="16"/>
+  <object id="256" name="bgBlock01" gid="1" x="96" y="160" width="16" height="16"/>
+  <object id="257" name="bgBlock01" gid="1" x="112" y="160" width="16" height="16"/>
+  <object id="258" name="bgBlock01" gid="1" x="128" y="160" width="16" height="16"/>
+  <object id="259" name="bgBlock01" gid="1" x="144" y="160" width="16" height="16"/>
+  <object id="260" name="bgBlock01" gid="1" x="160" y="160" width="16" height="16"/>
+  <object id="261" name="bgBlock01" gid="1" x="176" y="160" width="16" height="16"/>
+  <object id="262" name="bgBlock01" gid="1" x="192" y="160" width="16" height="16"/>
+  <object id="263" name="bgBlock01" gid="1" x="208" y="160" width="16" height="16"/>
+  <object id="264" name="bgBlock01" gid="1" x="224" y="160" width="16" height="16"/>
+  <object id="265" name="bgBlock01" gid="1" x="240" y="160" width="16" height="16"/>
+  <object id="266" name="bgBlock01" gid="1" x="256" y="160" width="16" height="16"/>
+  <object id="267" name="bgBlock01" gid="1" x="272" y="160" width="16" height="16"/>
+  <object id="268" name="bgBlock01" gid="1" x="288" y="160" width="16" height="16"/>
+  <object id="269" name="bgBlock01" gid="1" x="304" y="160" width="16" height="16"/>
+  <object id="270" name="bgBlock01" gid="1" x="320" y="160" width="16" height="16"/>
+  <object id="271" name="bgBlock01" gid="1" x="336" y="160" width="16" height="16"/>
+  <object id="272" name="bgBlock01" gid="1" x="352" y="160" width="16" height="16"/>
+  <object id="273" name="bgBlock01" gid="1" x="368" y="160" width="16" height="16"/>
+  <object id="274" name="bgBlock01" gid="1" x="384" y="160" width="16" height="16"/>
+  <object id="277" name="bgBlock01" gid="1" x="0" y="176" width="16" height="16"/>
+  <object id="278" name="bgBlock01" gid="1" x="16" y="176" width="16" height="16"/>
+  <object id="279" name="bgBlock01" gid="1" x="32" y="176" width="16" height="16"/>
+  <object id="280" name="bgBlock01" gid="1" x="48" y="176" width="16" height="16"/>
+  <object id="281" name="bgBlock01" gid="1" x="64" y="176" width="16" height="16"/>
+  <object id="282" name="bgBlock01" gid="1" x="80" y="176" width="16" height="16"/>
+  <object id="283" name="bgBlock01" gid="1" x="96" y="176" width="16" height="16"/>
+  <object id="284" name="bgBlock01" gid="1" x="112" y="176" width="16" height="16"/>
+  <object id="285" name="bgBlock01" gid="1" x="128" y="176" width="16" height="16"/>
+  <object id="286" name="bgBlock01" gid="1" x="144" y="176" width="16" height="16"/>
+  <object id="287" name="bgBlock01" gid="1" x="160" y="176" width="16" height="16"/>
+  <object id="288" name="bgBlock01" gid="1" x="176" y="176" width="16" height="16"/>
+  <object id="289" name="bgBlock01" gid="1" x="192" y="176" width="16" height="16"/>
+  <object id="290" name="bgBlock01" gid="1" x="208" y="176" width="16" height="16"/>
+  <object id="291" name="bgBlock01" gid="1" x="224" y="176" width="16" height="16"/>
+  <object id="292" name="bgBlock01" gid="1" x="240" y="176" width="16" height="16"/>
+  <object id="293" name="bgBlock01" gid="1" x="256" y="176" width="16" height="16"/>
+  <object id="294" name="bgBlock01" gid="1" x="272" y="176" width="16" height="16"/>
+  <object id="295" name="bgBlock01" gid="1" x="288" y="176" width="16" height="16"/>
+  <object id="296" name="bgBlock01" gid="1" x="304" y="176" width="16" height="16"/>
+  <object id="297" name="bgBlock01" gid="1" x="320" y="176" width="16" height="16"/>
+  <object id="298" name="bgBlock01" gid="1" x="336" y="176" width="16" height="16"/>
+  <object id="299" name="bgBlock01" gid="1" x="352" y="176" width="16" height="16"/>
+  <object id="300" name="bgBlock01" gid="1" x="368" y="176" width="16" height="16"/>
+  <object id="301" name="bgBlock01" gid="1" x="384" y="176" width="16" height="16"/>
+  <object id="304" name="bgBlock01" gid="1" x="0" y="192" width="16" height="16"/>
+  <object id="305" name="bgBlock01" gid="1" x="16" y="192" width="16" height="16"/>
+  <object id="306" name="bgBlock01" gid="1" x="32" y="192" width="16" height="16"/>
+  <object id="307" name="bgBlock01" gid="1" x="48" y="192" width="16" height="16"/>
+  <object id="308" name="bgBlock01" gid="1" x="64" y="192" width="16" height="16"/>
+  <object id="309" name="bgBlock01" gid="1" x="80" y="192" width="16" height="16"/>
+  <object id="310" name="bgBlock01" gid="1" x="96" y="192" width="16" height="16"/>
+  <object id="311" name="bgBlock01" gid="1" x="112" y="192" width="16" height="16"/>
+  <object id="312" name="bgBlock01" gid="1" x="128" y="192" width="16" height="16"/>
+  <object id="313" name="bgBlock01" gid="1" x="144" y="192" width="16" height="16"/>
+  <object id="314" name="bgBlock01" gid="1" x="160" y="192" width="16" height="16"/>
+  <object id="315" name="bgBlock01" gid="1" x="176" y="192" width="16" height="16"/>
+  <object id="316" name="bgBlock01" gid="1" x="192" y="192" width="16" height="16"/>
+  <object id="317" name="bgBlock01" gid="1" x="208" y="192" width="16" height="16"/>
+  <object id="318" name="bgBlock01" gid="1" x="224" y="192" width="16" height="16"/>
+  <object id="319" name="bgBlock01" gid="1" x="240" y="192" width="16" height="16"/>
+  <object id="320" name="bgBlock01" gid="1" x="256" y="192" width="16" height="16"/>
+  <object id="321" name="bgBlock01" gid="1" x="272" y="192" width="16" height="16"/>
+  <object id="322" name="bgBlock01" gid="1" x="288" y="192" width="16" height="16"/>
+  <object id="323" name="bgBlock01" gid="1" x="304" y="192" width="16" height="16"/>
+  <object id="324" name="bgBlock01" gid="1" x="320" y="192" width="16" height="16"/>
+  <object id="325" name="bgBlock01" gid="1" x="336" y="192" width="16" height="16"/>
+  <object id="326" name="bgBlock01" gid="1" x="352" y="192" width="16" height="16"/>
+  <object id="327" name="bgBlock01" gid="1" x="368" y="192" width="16" height="16"/>
+  <object id="328" name="bgBlock01" gid="1" x="384" y="192" width="16" height="16"/>
+  <object id="331" name="bgBlock01" gid="1" x="0" y="208" width="16" height="16"/>
+  <object id="332" name="bgBlock01" gid="1" x="16" y="208" width="16" height="16"/>
+  <object id="333" name="bgBlock01" gid="1" x="32" y="208" width="16" height="16"/>
+  <object id="334" name="bgBlock01" gid="1" x="48" y="208" width="16" height="16"/>
+  <object id="335" name="bgBlock01" gid="1" x="64" y="208" width="16" height="16"/>
+  <object id="336" name="bgBlock01" gid="1" x="80" y="208" width="16" height="16"/>
+  <object id="337" name="bgBlock01" gid="1" x="96" y="208" width="16" height="16"/>
+  <object id="338" name="bgBlock01" gid="1" x="112" y="208" width="16" height="16"/>
+  <object id="339" name="bgBlock01" gid="1" x="128" y="208" width="16" height="16"/>
+  <object id="340" name="bgBlock01" gid="1" x="144" y="208" width="16" height="16"/>
+  <object id="341" name="bgBlock01" gid="1" x="160" y="208" width="16" height="16"/>
+  <object id="342" name="bgBlock01" gid="1" x="176" y="208" width="16" height="16"/>
+  <object id="343" name="bgBlock01" gid="1" x="192" y="208" width="16" height="16"/>
+  <object id="344" name="bgBlock01" gid="1" x="208" y="208" width="16" height="16"/>
+  <object id="345" name="bgBlock01" gid="1" x="224" y="208" width="16" height="16"/>
+  <object id="346" name="bgBlock01" gid="1" x="240" y="208" width="16" height="16"/>
+  <object id="347" name="bgBlock01" gid="1" x="256" y="208" width="16" height="16"/>
+  <object id="348" name="bgBlock01" gid="1" x="272" y="208" width="16" height="16"/>
+  <object id="349" name="bgBlock01" gid="1" x="288" y="208" width="16" height="16"/>
+  <object id="350" name="bgBlock01" gid="1" x="304" y="208" width="16" height="16"/>
+  <object id="351" name="bgBlock01" gid="1" x="320" y="208" width="16" height="16"/>
+  <object id="352" name="bgBlock01" gid="1" x="336" y="208" width="16" height="16"/>
+  <object id="353" name="bgBlock01" gid="1" x="352" y="208" width="16" height="16"/>
+  <object id="354" name="bgBlock01" gid="1" x="368" y="208" width="16" height="16"/>
+  <object id="355" name="bgBlock01" gid="1" x="384" y="208" width="16" height="16"/>
+  <object id="358" name="bgBlock01" gid="1" x="0" y="224" width="16" height="16"/>
+  <object id="359" name="bgBlock01" gid="1" x="16" y="224" width="16" height="16"/>
+  <object id="360" name="bgBlock01" gid="1" x="32" y="224" width="16" height="16"/>
+  <object id="361" name="bgBlock01" gid="1" x="48" y="224" width="16" height="16"/>
+  <object id="362" name="bgBlock01" gid="1" x="64" y="224" width="16" height="16"/>
+  <object id="363" name="bgBlock01" gid="1" x="80" y="224" width="16" height="16"/>
+  <object id="364" name="bgBlock01" gid="1" x="96" y="224" width="16" height="16"/>
+  <object id="365" name="bgBlock01" gid="1" x="112" y="224" width="16" height="16"/>
+  <object id="366" name="bgBlock01" gid="1" x="128" y="224" width="16" height="16"/>
+  <object id="367" name="bgBlock01" gid="1" x="144" y="224" width="16" height="16"/>
+  <object id="368" name="bgBlock01" gid="1" x="160" y="224" width="16" height="16"/>
+  <object id="369" name="bgBlock01" gid="1" x="176" y="224" width="16" height="16"/>
+  <object id="370" name="bgBlock01" gid="1" x="192" y="224" width="16" height="16"/>
+  <object id="371" name="bgBlock01" gid="1" x="208" y="224" width="16" height="16"/>
+  <object id="372" name="bgBlock01" gid="1" x="224" y="224" width="16" height="16"/>
+  <object id="373" name="bgBlock01" gid="1" x="240" y="224" width="16" height="16"/>
+  <object id="374" name="bgBlock01" gid="1" x="256" y="224" width="16" height="16"/>
+  <object id="375" name="bgBlock01" gid="1" x="272" y="224" width="16" height="16"/>
+  <object id="376" name="bgBlock01" gid="1" x="288" y="224" width="16" height="16"/>
+  <object id="377" name="bgBlock01" gid="1" x="304" y="224" width="16" height="16"/>
+  <object id="378" name="bgBlock01" gid="1" x="320" y="224" width="16" height="16"/>
+  <object id="379" name="bgBlock01" gid="1" x="336" y="224" width="16" height="16"/>
+  <object id="380" name="bgBlock01" gid="1" x="352" y="224" width="16" height="16"/>
+  <object id="381" name="bgBlock01" gid="1" x="368" y="224" width="16" height="16"/>
+  <object id="382" name="bgBlock01" gid="1" x="384" y="224" width="16" height="16"/>
+  <object id="410" name="blockScreenLeft" gid="11" x="-16" y="32" width="16" height="16"/>
+  <object id="411" name="blockScreenLeft" gid="11" x="-16" y="48" width="16" height="16"/>
+  <object id="412" name="blockScreenLeft" gid="11" x="-16" y="64" width="16" height="16"/>
+  <object id="413" name="blockScreenLeft" gid="11" x="-16" y="80" width="16" height="16"/>
+  <object id="414" name="blockScreenLeft" gid="11" x="-16" y="96" width="16" height="16"/>
+  <object id="415" name="blockScreenLeft" gid="11" x="-16" y="112" width="16" height="16"/>
+  <object id="416" name="blockScreenLeft" gid="11" x="-16" y="128" width="16" height="16"/>
+  <object id="417" name="blockScreenLeft" gid="11" x="-16" y="144" width="16" height="16"/>
+  <object id="418" name="blockScreenLeft" gid="11" x="-16" y="160" width="16" height="16"/>
+  <object id="419" name="blockScreenLeft" gid="11" x="-16" y="176" width="16" height="16"/>
+  <object id="420" name="blockScreenLeft" gid="11" x="-16" y="192" width="16" height="16"/>
+  <object id="421" name="blockScreenLeft" gid="11" x="-16" y="208" width="16" height="16"/>
+  <object id="422" name="blockScreenLeft" gid="11" x="-16" y="224" width="16" height="16"/>
+  <object id="423" name="blockScreenFloor" gid="20" x="0" y="240" width="16" height="16"/>
+  <object id="424" name="blockScreenFloor" gid="20" x="16" y="240" width="16" height="16"/>
+  <object id="425" name="blockScreenFloor" gid="20" x="32" y="240" width="16" height="16"/>
+  <object id="426" name="blockScreenFloor" gid="20" x="48" y="240" width="16" height="16"/>
+  <object id="427" name="blockScreenFloor" gid="20" x="64" y="240" width="16" height="16"/>
+  <object id="428" name="blockScreenFloor" gid="20" x="80" y="240" width="16" height="16"/>
+  <object id="429" name="blockScreenFloor" gid="20" x="96" y="240" width="16" height="16"/>
+  <object id="430" name="blockScreenFloor" gid="20" x="112" y="240" width="16" height="16"/>
+  <object id="431" name="blockScreenFloor" gid="20" x="128" y="240" width="16" height="16"/>
+  <object id="432" name="blockScreenFloor" gid="20" x="144" y="240" width="16" height="16"/>
+  <object id="433" name="blockScreenFloor" gid="20" x="160" y="240" width="16" height="16"/>
+  <object id="434" name="blockScreenFloor" gid="20" x="176" y="240" width="16" height="16"/>
+  <object id="435" name="blockScreenFloor" gid="20" x="192" y="240" width="16" height="16"/>
+  <object id="436" name="blockScreenFloor" gid="20" x="208" y="240" width="16" height="16"/>
+  <object id="437" name="blockScreenFloor" gid="20" x="224" y="240" width="16" height="16"/>
+  <object id="438" name="blockScreenFloor" gid="20" x="240" y="240" width="16" height="16"/>
+  <object id="439" name="blockScreenFloor" gid="20" x="256" y="240" width="16" height="16"/>
+  <object id="440" name="blockScreenFloor" gid="20" x="272" y="240" width="16" height="16"/>
+  <object id="441" name="blockScreenFloor" gid="20" x="288" y="240" width="16" height="16"/>
+  <object id="442" name="blockScreenFloor" gid="20" x="304" y="240" width="16" height="16"/>
+  <object id="443" name="blockScreenFloor" gid="20" x="320" y="240" width="16" height="16"/>
+  <object id="444" name="blockScreenFloor" gid="20" x="336" y="240" width="16" height="16"/>
+  <object id="445" name="blockScreenFloor" gid="20" x="352" y="240" width="16" height="16"/>
+  <object id="446" name="blockScreenFloor" gid="20" x="368" y="240" width="16" height="16"/>
+  <object id="447" name="blockScreenFloor" gid="20" x="384" y="240" width="16" height="16"/>
+  <object id="448" name="blockScreenRight" gid="13" x="400" y="32" width="16" height="16"/>
+  <object id="449" name="blockScreenRight" gid="13" x="400" y="48" width="16" height="16"/>
+  <object id="450" name="blockScreenRight" gid="13" x="400" y="64" width="16" height="16"/>
+  <object id="451" name="blockScreenRight" gid="13" x="400" y="80" width="16" height="16"/>
+  <object id="452" name="blockScreenRight" gid="13" x="400" y="96" width="16" height="16"/>
+  <object id="453" name="blockScreenRight" gid="13" x="400" y="112" width="16" height="16"/>
+  <object id="454" name="blockScreenRight" gid="13" x="400" y="128" width="16" height="16"/>
+  <object id="455" name="blockScreenRight" gid="13" x="400" y="144" width="16" height="16"/>
+  <object id="456" name="blockScreenRight" gid="13" x="400" y="160" width="16" height="16"/>
+  <object id="457" name="blockScreenRight" gid="13" x="400" y="176" width="16" height="16"/>
+  <object id="458" name="blockScreenRight" gid="13" x="400" y="192" width="16" height="16"/>
+  <object id="459" name="blockScreenRight" gid="13" x="400" y="208" width="16" height="16"/>
+  <object id="460" name="blockScreenRight" gid="13" x="400" y="224" width="16" height="16"/>
+  <object id="463" name="blockScreenCeiling" gid="4" x="0" y="16" width="16" height="16"/>
+  <object id="464" name="blockScreenCeiling" gid="4" x="16" y="16" width="16" height="16"/>
+  <object id="465" name="blockScreenCeiling" gid="4" x="32" y="16" width="16" height="16"/>
+  <object id="466" name="blockScreenCeiling" gid="4" x="48" y="16" width="16" height="16"/>
+  <object id="467" name="blockScreenCeiling" gid="4" x="64" y="16" width="16" height="16"/>
+  <object id="468" name="blockScreenCeiling" gid="4" x="80" y="16" width="16" height="16"/>
+  <object id="469" name="blockScreenCeiling" gid="4" x="96" y="16" width="16" height="16"/>
+  <object id="470" name="blockScreenCeiling" gid="4" x="112" y="16" width="16" height="16"/>
+  <object id="471" name="blockScreenCeiling" gid="4" x="128" y="16" width="16" height="16"/>
+  <object id="472" name="blockScreenCeiling" gid="4" x="144" y="16" width="16" height="16"/>
+  <object id="473" name="blockScreenCeiling" gid="4" x="160" y="16" width="16" height="16"/>
+  <object id="474" name="blockScreenCeiling" gid="4" x="176" y="16" width="16" height="16"/>
+  <object id="475" name="blockScreenCeiling" gid="4" x="192" y="16" width="16" height="16"/>
+  <object id="476" name="blockScreenCeiling" gid="4" x="208" y="16" width="16" height="16"/>
+  <object id="477" name="blockScreenCeiling" gid="4" x="224" y="16" width="16" height="16"/>
+  <object id="478" name="blockScreenCeiling" gid="4" x="240" y="16" width="16" height="16"/>
+  <object id="479" name="blockScreenCeiling" gid="4" x="256" y="16" width="16" height="16"/>
+  <object id="480" name="blockScreenCeiling" gid="4" x="272" y="16" width="16" height="16"/>
+  <object id="481" name="blockScreenCeiling" gid="4" x="288" y="16" width="16" height="16"/>
+  <object id="482" name="blockScreenCeiling" gid="4" x="304" y="16" width="16" height="16"/>
+  <object id="483" name="blockScreenCeiling" gid="4" x="320" y="16" width="16" height="16"/>
+  <object id="484" name="blockScreenCeiling" gid="4" x="336" y="16" width="16" height="16"/>
+  <object id="485" name="blockScreenCeiling" gid="4" x="352" y="16" width="16" height="16"/>
+  <object id="486" name="blockScreenCeiling" gid="4" x="368" y="16" width="16" height="16"/>
+  <object id="487" name="blockScreenCeiling" gid="4" x="384" y="16" width="16" height="16"/>
+  <object id="488" name="blockScreenTopLeft" gid="3" x="-16" y="16" width="16" height="16"/>
+  <object id="489" name="blockScreenTopRight" gid="5" x="400" y="16" width="16" height="16"/>
+  <object id="490" name="blockScreenBottomLeft" gid="19" x="-16" y="240" width="16" height="16"/>
+  <object id="491" name="blockScreenBottomRight" gid="21" x="400" y="240" width="16" height="16"/>
+ </objectgroup>
+</map>
