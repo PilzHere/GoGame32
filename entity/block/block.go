@@ -18,24 +18,6 @@ type Block struct { // object level
 	textureCell pixel.Rect
 }
 
-// Global Vars and Constants are stored in the lifetime of the program.
-<<<<<<< HEAD
-var (
-
-)
-
-func NewBlock(assMan *utils.AssetsManager, window *pixelgl.Window, uMin float64, vMin float64, uMax float64, vMax float64, theme int, x float64, y float64) *Block {
-	block := &Block{
-		Entity:   entity.Entity{
-			Id:        uuid.Must(uuid.NewRandom()),
-			ToDestroy: false,
-		},
-		assMan:   assMan,
-		window:   window,
-		Position: pixel.V(x, y),
-=======
-var ()
-
 func NewBlock(assMan *utils.AssetsManager, window *pixelgl.Window, uMin float64, vMin float64, uMax float64, vMax float64, theme int, x float64, y float64) *Block {
 	block := &Block{
 		Entity: entity.Entity{
@@ -45,7 +27,6 @@ func NewBlock(assMan *utils.AssetsManager, window *pixelgl.Window, uMin float64,
 		assMan:      assMan,
 		window:      window,
 		Position:    pixel.V(x, y),
->>>>>>> 0d061366faa80267ab79a31e2e4f355d8886141f
 		sprite:      nil,
 		theme:       theme,
 		textureCell: pixel.Rect{Min: pixel.V(uMin, vMin), Max: pixel.V(uMax, vMax)},
