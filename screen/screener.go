@@ -7,8 +7,9 @@ import (
 type Screener interface {
 	AddEntity(entity entity.Entityer)
 	RemoveEntity(entity entity.Entityer)
-	HandleInput(dt *float64)
-	Tick(dt *float64)
-	Render(dt *float64)
+	HandleInput(dt float64)
+	CheckColliders()
+	Tick(dt float64)
+	Render(dt float64)
 	Destroy()
 }

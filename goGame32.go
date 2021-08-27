@@ -33,11 +33,17 @@ var (
 	windowRepositionTimer  float64
 	windowRepositionToggle bool
 	spriteBatch            *pixel.Batch
+	T                      = 0.0
+	DT                     = 0.01
+	currentTime            = time.Now()
+	accumulator            = 0.0
+	sdt                    = 1.0
 )
 
 const (
 	windowOriginalWidth  float64 = 426
 	windowOriginalHeight float64 = 240
+	fpsLimit             int     = 60 // FIXME Game is designed for 60 fps ONLY. Increasing or lowering this will alter the physics (mostly jumps) of the game (there is no interpolation in the code).
 )
 
 func main() {
@@ -68,7 +74,7 @@ func run() {
 	windowOriginalPosX = win.GetPos().X
 	windowOriginalPosY = win.GetPos().Y
 
-	setFPS(144) // 60 or 144
+	setFPS(fpsLimit)
 
 	canvasFbo = pixelgl.NewCanvas(pixel.R(0, 0, canvasFboWidth, canvasFboHeight))
 
@@ -91,12 +97,18 @@ func run() {
 
 	spriteBatch = pixel.NewBatch(&pixel.TrianglesData{}, bg01)
 
-	fmt.Println("bathc: ", spriteBatch)
+	//fmt.Println("bathc: ", spriteBatch)
 
 	PushScreen(menuScreen.NewMenuScreen(spriteBatch, &assetsMan, win))
 
 	for !win.Closed() {
 		dt = calculateDeltaTime()
+
+		/*if dt > 1/60.0 {
+			sdt = dt / (1/60.0)
+		} else {
+			sdt = 1.0
+		}*/
 
 		if windowRepositionToggle {
 			windowRepositionTimer += dt
@@ -189,7 +201,20 @@ func run() {
 			oneSecondTimer = 0 // Reset timer
 		}
 
-		currentScreen.Tick(&dt)
+		currentScreen.HandleInput(dt)
+
+		fmt.Println("-new tick-")
+
+		currentScreen.Tick(dt)
+
+		for accumulator >= DT {
+			//previousState = currentState;
+			//integrate( currentState, t, dt )
+			T += DT
+			accumulator -= dt
+		}
+
+		//alpha := accumulator / DT
 
 		var canvasBounds = pixel.Rect{
 			Min: pixel.Vec{},
@@ -198,7 +223,7 @@ func run() {
 		win.Canvas().SetBounds(canvasBounds) // Scale down window canvas
 		canvasFbo.SetBounds(canvasBounds)    // Scale down FBO canvas
 
-		currentScreen.Render(&dt)
+		currentScreen.Render(dt)
 
 		if !windowIsFullscreen {
 			canvasBounds = pixel.Rect{
@@ -314,6 +339,18 @@ func calculateDeltaTime() float64 {
 	deltaTime := now.Sub(last).Seconds()
 
 	return deltaTime
+}
+
+func calculateAlpha() float64 {
+	newTime := time.Now()
+	frameTime := newTime.Sub(time.Now()).Seconds()
+	if frameTime > 0.25 {
+		frameTime = 0.25
+	}
+	currentTime = newTime
+
+	accumulator += frameTime
+	return 0
 }
 
 func exitGame(window *pixelgl.Window) {

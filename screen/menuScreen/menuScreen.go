@@ -58,15 +58,19 @@ func (ms *MenuScreen) RemoveEntity(entity entity.Entityer) {
 	}
 }
 
-func (ms *MenuScreen) HandleInput(dt *float64) {
+func (ms *MenuScreen) HandleInput(dt float64) {
 
 }
 
-func (ms *MenuScreen) Tick(dt *float64) {
+func (ms *MenuScreen) CheckColliders() {
 
 }
 
-func (ms *MenuScreen) Render(dt *float64) {
+func (ms *MenuScreen) Tick(dt float64) {
+
+}
+
+func (ms *MenuScreen) Render(dt float64) {
 	ms.Window.Clear(colornames.Skyblue)
 
 	ms.SpriteBatch.Clear()
